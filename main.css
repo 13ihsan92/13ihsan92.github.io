@@ -561,6 +561,14 @@ input [type="submit"]:hover{
 /*End animations*/
 
 /*Start media queries*/
+@font-face {
+  font-family: 'The Historia Demo';
+  src: url('fonts/thehistoriademo-webfont.woff2') format('woff2'),
+       url('fonts/thehistoriademo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @media screen and (max-width: 768px){
   body{
     background: url(images/sitebg2.jpg) no-repeat center fixed;
@@ -635,6 +643,7 @@ input [type="submit"]:hover{
   }
 
   .landing-text h1{
+    font-family: 'The Historia Demo';
     font-size: 6.5rem;
   }
 
